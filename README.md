@@ -1,8 +1,6 @@
 # Consumo-de-API-MTA-SA---Website
 Consumo da API do MTA  que mostra os servidores online
 
-**Nome:**
-
 # Consumo da API do MTA  que mostra os servidores online
 
 
