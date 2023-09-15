@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+/* Feito por Kramer#0488 <- Discord / eu.kramer <- instagram  */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+
+:root{
+   --white: #fff;
+   --bg-1: #110F17;
+   --bg-2: #1D192C;
+   --color-none: #00000000;
+   --color-border: #7856ff;
+   --color-pink:#d93dfc;
+
+}
+body {
+   background: var(--bg-1);
+   color: var(--white);
+  
+}
+.main{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 2rem;
+}
+
+
+#search {
+   font-size: 1.3rem;
+   font-weight: 700;
+   border: none;
+   color: var(--white);
+   padding: 20px 100px;
+   border-radius: 10px;
+   background: var(--bg-2);
+   outline: none; 
+   border: 1px solid #00000000; 
+   
+}
+#search:hover{
+  border: 1px solid var(--color-border);
+}
+
+
+button {
+   border: none;
+   color: var(--white);
+   padding: 20px 100px;
+   border-radius: 10px;
+   font-size: 1.2rem;
+   font-weight: 700;
+   background: var(--bg-2);
+   border: 2px solid var(--bg-2);
+   transition: all 0.5s;
+}
+button:hover {
+   border: 2px solid var(--color-border);
+}
+
+
+#container{ 
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 2rem;
+}
+
+
+
+/* Estilização do card */
+.card {
+   display: flex;
+   flex-direction: column;
+   width: 500px;
+   background: var(--bg-2);
+   color: var(--white);
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 4px 6px #0000001a;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   gap: 1rem;
+   transition: all 0.3s;
+}
+
+.card:hover{
+   transform: scale(1.06);
+}
+
+
+.card h1{
+
+   font-size: 1.1rem;
+   color: var(--color-pink);
+
+}
+
+.card p {
+   font-size: 1rem;
+}
+
+.card a {
+   text-decoration: none;
+   font-size: 1.1rem;
+   color: var(--white);
+   padding: 20px 100px;
+   border-radius: 10px;
+   background: var(--bg-1);
+   border: 2px solid var(--bg-2);
+   transition: all 0.5s;
+}
+
+.card a:hover {
+   border: 2px solid var(--color-border);
+}
